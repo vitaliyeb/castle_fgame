@@ -74,7 +74,7 @@ export class LevelThree extends LevelScene {
         super({
             tasks,
             game,
-            background: './images/lev3.jpg'
+            background: '/images/lev3.jpg'
         });
 
         this.render();

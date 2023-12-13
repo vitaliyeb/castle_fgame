@@ -58,7 +58,7 @@ export class RatingScene extends Scene {
     constructor({game}) {
         super({
             game,
-            background: './images/reit.jpg'
+            background: '/images/reit.jpg'
         });
         this.render();
         this.renderBack(() => {

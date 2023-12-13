@@ -77,7 +77,7 @@ export class LevelTwo extends LevelScene {
         super({
             tasks,
             game,
-            background: './images/mech.jpg'
+            background: '/images/mech.jpg'
         });
 
         this.render();

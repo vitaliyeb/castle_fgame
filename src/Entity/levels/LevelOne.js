@@ -3,7 +3,7 @@ import {LevelScene} from "../LevelScene";
 
 const tasks = [
     {
-        image: './images/doctor.jpg',
+        image: '/images/doctor.jpg',
         answerVariable: [
             'мясник',
             'врач',
@@ -13,7 +13,7 @@ const tasks = [
         success: [1,3]
     },
     {
-        image: './images/music.jpg',
+        image: '/images/music.jpg',
         answerVariable: [
             'музыка',
             'рыцарский турнир',
@@ -23,7 +23,7 @@ const tasks = [
         success: [0,3]
     },
     {
-        image: './images/pir.png',
+        image: '/images/pir.png',
         answerVariable: [
             'сон',
             'праздник',
@@ -33,7 +33,7 @@ const tasks = [
         success: [1,2]
     },
     {
-        image: './images/pred.jpg',
+        image: '/images/pred.jpg',
         answerVariable: [
             'нападение',
             'радость',
@@ -71,7 +71,7 @@ export class LevelOne extends LevelScene {
         super({
             tasks,
             game,
-            background: './images/leve1bg.jpg'
+            background: '/images/leve1bg.jpg'
         });
 
         this.render();

@@ -69,7 +69,7 @@ export class MenuScene extends Scene {
     constructor({game}) {
         super({
             game: game,
-            background: './images/menu.jpg'
+            background: '/images/menu.jpg'
         });
 
         this.render();

@@ -1,4 +1,4 @@
-console.log(process.env)
+
 
 export class Scene {
     scoreEl = null;
@@ -45,7 +45,7 @@ export class Scene {
 
     setBackground = (backgroundLink) => {
 
-        this.container.style.backgroundImage = `url(${backgroundLink})`;
+        this.container.style.backgroundImage = `url(${process.env.NODE_ENV === "development" ? '.' : './build/'}${backgroundLink})`;
     }    
 
     destroyScene = () => {

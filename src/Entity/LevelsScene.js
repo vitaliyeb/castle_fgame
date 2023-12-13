@@ -71,7 +71,7 @@ export class LevelsScene extends Scene {
     constructor({ game }) {
         super({
             game,
-            background: './images/levelsBg.jpg'
+            background: '/images/levelsBg.jpg'
         });
 
         this.render();

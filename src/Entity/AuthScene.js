@@ -84,7 +84,7 @@ export class AuthScene extends Scene {
         // Object.assign(this.prototype, game);
         super({
             game: game,
-            background: './images/auth.jpg'
+            background: '/images/auth.jpg'
         });
 
         this.renderModal();

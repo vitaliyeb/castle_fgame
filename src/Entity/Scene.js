@@ -45,7 +45,7 @@ export class Scene {
 
     setBackground = (backgroundLink) => {
 
-        this.container.style.backgroundImage = `url(${process.env.NODE_ENV === "development" ? '.' : './build/'}${backgroundLink})`;
+        this.container.style.backgroundImage = `url(.${backgroundLink})`;
     }    
 
     destroyScene = () => {
